@@ -1,10 +1,13 @@
 import React from 'react';
+import { GlobalStyle } from './styles/global';
+import { Routes } from './routes';
 
-const App: React.FC = () => {
+const App = () => {
   return (
-    <div className="App">
-      <h1>hello world!</h1>
-    </div>
+    <React.Fragment>
+      <Routes />
+      <GlobalStyle />
+    </React.Fragment>
   );
 }
 
