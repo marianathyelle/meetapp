@@ -19,4 +19,8 @@ export const Content = styled.div`
   flex-direction: column;
   min-width: 300px;
   max-width: 300px;
+
+  a {
+    text-align: center;
+  }
 `;
